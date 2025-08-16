@@ -40,7 +40,14 @@ function showMenu() {
     magenta: "\x1b[35m",
     red: "\x1b[31m"
   };
-
+console.log(`
+  ____                     _   _   _      _                     
+ |  _ \\ __ _ _ __  _ __   / \\ | |_| | ___| |__   __ _ _ __ ___  
+ | |_) / _\` | '_ \\| '_ \\ / _ \\| __| |/ _ \\ '_ \\ / _\` | '_ \` _ \\ 
+ |  __/ (_| | |_) | |_) / ___ \\ |_| |  __/ | | | (_| | | | | | |
+ |_|   \\__,_| .__/| .__/_/   \\_\\__|_|\\___|_| |_|\\__,_|_| |_| |_|
+            |_|   |_|                                            
+`);
   console.log(`${colors.bright}${colors.yellow}\n=== Bot Configuration Menu ===${colors.reset}`);
   console.log(`${colors.green}1.${colors.reset} Set bot username`);
   console.log(`${colors.cyan}2.${colors.reset} Set owner username`);
