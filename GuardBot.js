@@ -40,12 +40,7 @@ function showMenu() {
     magenta: "\x1b[35m",
     red: "\x1b[31m"
   };
-  console.log('\x1b[36m' + __________              .__                    
-\______   \_____ _______|  |__ _____    _____  
- |     ___/\__  \\_  __ \  |  \\__  \  /     \ 
- |    |     / __ \|  | \/   Y  \/ __ \|  Y Y  \
- |____|    (____  /__|  |___|  (____  /__|_|  /
-                \/           \/     \/      \/  + '\x1b[0m');
+  console.log('\x1b[36m' +Parham Coder PersianGurd+ '\x1b[0m');
   console.log(`${colors.bright}${colors.yellow}\n=== Bot Configuration Menu ===${colors.reset}`);
   console.log(`${colors.green}1.${colors.reset} Set bot username`);
   console.log(`${colors.cyan}2.${colors.reset} Set owner username`);
