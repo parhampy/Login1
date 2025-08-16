@@ -27,14 +27,27 @@ const ATTACK_RANGE = 5;
 const RECONNECT_DELAY = 5000;
 
 // Main menu
+
 function showMenu() {
-  console.log('\n=== Bot Configuration Menu ===');
-  console.log('1. Set bot username');
-  console.log('2. Set owner username');
-  console.log('3. Set server IP');
-  console.log('4. Set server port');
-  console.log('5. Start bot');
-  console.log('0. Exit');
+  // کدهای رنگ ANSI
+  const colors = {
+    reset: "\x1b[0m",
+    bright: "\x1b[1m",
+    yellow: "\x1b[33m",
+    green: "\x1b[32m",
+    cyan: "\x1b[36m",
+    blue: "\x1b[34m",
+    magenta: "\x1b[35m",
+    red: "\x1b[31m"
+  };
+
+  console.log(`${colors.bright}${colors.yellow}\n=== Bot Configuration Menu ===${colors.reset}`);
+  console.log(`${colors.green}1.${colors.reset} Set bot username`);
+  console.log(`${colors.cyan}2.${colors.reset} Set owner username`);
+  console.log(`${colors.blue}3.${colors.reset} Set server IP`);
+  console.log(`${colors.magenta}4.${colors.reset} Set server port`);
+  console.log(`${colors.bright}${colors.green}5.${colors.reset} Start bot`);
+  console.log(`${colors.red}0.${colors.reset} Exit`);
 }
 
 // Password authentication
